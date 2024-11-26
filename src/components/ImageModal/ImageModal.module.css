@@ -1,0 +1,18 @@
+.modal {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  background: none;
+  overflow: auto;
+  outline: none;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  & img {
+    max-height: 800px;
+  }
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0px;
+  background-color: var(--background);
+}

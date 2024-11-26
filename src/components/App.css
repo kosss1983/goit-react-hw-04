@@ -1,0 +1,24 @@
+:root {
+  --black: #1a1a1a;
+  --blue: #646cff;
+  --red: #cf222e;
+  --white: #fff;
+  --dark-blue: 	#1434A4;
+  --background: rgba(0, 0, 0, 0.75);
+
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  padding: 15px 35px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}

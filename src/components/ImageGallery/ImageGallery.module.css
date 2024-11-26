@@ -1,0 +1,17 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+  margin: 10px 15px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.galleryItem {
+  flex: calc(100% * (1 / 4) - 36px);
+  box-sizing: border-box;
+  cursor: pointer;
+  height: 300px;
+}
